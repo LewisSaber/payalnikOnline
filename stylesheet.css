@@ -1,0 +1,20 @@
+body {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ height: 100%;
+}
+#payalnikCounter {
+ font-size: 5vh;
+ font-weight: 700;
+}
+
+#addPayalnik {
+ border-radius: 100%;
+
+ width: 15vh;
+ aspect-ratio: 1/1;
+}
+#addPayalnik:active{
+ filter: brightness(0.8);
+}
